@@ -57,7 +57,7 @@ This tool encrypts all saved passwords using **PBKDF2-HMAC (SHA-256)** + **Ferne
 
 ### 1. Clone the repo
 ```bash
-git clone [https://github.com/yourusername/password-manager](https://github.com/pukarplayz/Password-Manager)
+git clone https://github.com/pukarplayz/Password-Manager.git
 cd password-manager
 ```
 
