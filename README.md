@@ -57,7 +57,7 @@ This tool encrypts all saved passwords using **PBKDF2-HMAC (SHA-256)** + **Ferne
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/password-manager.git
+git clone [https://github.com/yourusername/password-manager](https://github.com/pukarplayz/Password-Manager)
 cd password-manager
 ```
 
@@ -73,10 +73,10 @@ pip install cryptography rich
 Adjust your credentials in `config.py`:
 
 ```python
-SALT = b"mysupersecretsalt123"
-master_key = "pukar"
+SALT = b"yoursecretsalt"
+master_key = "your_password"
 VAULT_FILE = "vault.json"
-admin_password = "admin123"
+admin_password = "your_admin_password"
 ```
 
 ⚠️ **Important:** Always replace these with your own secure values before actual use.
@@ -116,7 +116,7 @@ Simple, clean, and easy to use.
 ### Adding an Account
 ```
 Account name: GitHub
-Username: pukar_dev
+Username: test123
 Password (leave blank to auto-generate):
 
 [✔] Account 'GitHub' added.
@@ -125,7 +125,7 @@ Password (leave blank to auto-generate):
 ### Viewing Accounts
 ```
 Name: GitHub
-Username: pukar_dev
+Username: test123
 Password: d8G@f#2sW!p1
 -----------------------
 ```
